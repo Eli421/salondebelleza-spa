@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
@@ -40,10 +41,16 @@
         </div>
     </div>
 
-    <section class="slider">
+    <section class="slider contenedor">
         <ul class="slider__contenedor">
             <li class="slider__slide">
-                <img src="build/img/slide_03.jpg" alt="imagen slide">
+                <img class="slider__imagen" src="build/img/slide_01.jpg" alt="imagen slide">
+            </li>
+            <li class="slider__slide">
+                <img class="slider__imagen" src="build/img/slide_02.jpg" alt="imagen slide">
+            </li>
+            <li class="slider__slide">
+                <img class="slider__imagen" src="build/img/slide_03.jpg" alt="imagen slide">
             </li>
         </ul>
     </section>
@@ -128,7 +135,7 @@
                         <tr class="tabla__tr">
                             <td class="tabla__td">Sabado</td>
                             <td class="tabla__td">09:00</td>
-                            <td class="tabla__td">19:00</td>
+                            <td class="tabla__td">14:00</td>
                         </tr>
                         <tr class="tabla__tr">
                             <td class="tabla__td">Domingo</td>
@@ -200,9 +207,41 @@
 
     <section class="cita">
         <h2 class="cita__heading">Realiza una cita</h2>
-        <p class="cita__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quo at, itaque modi vero enim illum sequi animi.</p>
+        <p class="cita__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa obcaecati autem laudantium nihil, dicta nisi itaque eos corrupti odit quasi assumenda mollitia tempore tempora? Nihil laboriosam fugit magnam labore eius?</p>
 
         <a class="cita__enlace" href="#">Leer mas</a>
     </section>
+
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias maiores eligendi, a unde mollitia doloremque esse omnis modi minus aliquid harum maxime!</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lun-Vie: 9:00am - 7:00pm</p>
+                <p class="footer__texto">Sabado: 9:00am - 2:00pm</p>
+                <p class="footer__texto">Domingo: Cerrado</p>
+            </div>
+
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contacto</h3>
+                <p class="footer__texto">Av. Revolucion 1818</p>
+                    <nav class="sociales">
+                        <a class="sociales__enlace" href="https://facebook.com"><span class="sociales__accesible">Facebook</span></a>
+                        <a class="sociales__enlace" href="https://twitter.com"><span class="sociales__accesible">Twitter</span></a>
+                        <a class="sociales__enlace" href="https://instagram.com"><span class="sociales__accesible">Instagram</span></a>
+                        <a class="sociales__enlace" href="https://youtube.com"><span class="sociales__accesible">Youtube</span></a>
+                        <a class="sociales__enlace" href="https://tiktok.com"><span class="sociales__accesible">TikTok</span></a>
+                    </nav>
+            </div>
+        </div>
+
+        <p class="footer__copyright"> Carolina Spa & Salon. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
